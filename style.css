@@ -1,0 +1,276 @@
+@import url("https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Unica+One&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+.subHeader {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0px;
+  border-bottom: 1px solid #eee;
+}
+
+.about ul {
+  display: flex;
+  gap: 20px;
+}
+
+.about ul li {
+  list-style: none;
+  color: #7a7a7a;
+}
+
+.about ul li .fa {
+  color: #f35525;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.about ul .mail {
+  border-right: 1px solid #7a7a7a;
+  height: 20px;
+  padding-right: 20px;
+}
+
+.social-links ul {
+  display: flex;
+  gap: 20px;
+}
+
+.social-links ul li {
+  display: flex;
+  list-style: none;
+}
+
+.social-links ul li a {
+  text-decoration: none;
+  width: 30px;
+  height: 30px;
+  background-color: #cdcdcd;
+  color: white;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-links ul li a:hover {
+  background: #f35525;
+}
+
+/*  Sub Header Close  */
+
+/* Header Open */
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0px;
+
+  position: sticky;
+  top: 0px;
+  background-color: white;
+}
+
+.header a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+.header a.active {
+  color: #f35525;
+}
+
+.header a:hover {
+  color: #f35525;
+}
+
+.header .logo h1 {
+  text-transform: uppercase;
+}
+
+.nav-links ul {
+  display: flex;
+  gap: 50px;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links ul .btn {
+  margin-left: 40px;
+}
+
+.nav-links ul .btn {
+  background-color: black;
+  width: 200px;
+  border-radius: 20px;
+}
+
+.nav-links ul .btn a {
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-links ul li a .fa-calendar {
+  width: 40px;
+  height: 40px;
+  background-color: #f35525;
+
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Header End */
+
+/* Banner Start */
+
+.banner {
+  background: url("assets/images/banner-03.jpg") no-repeat;
+  color: white;
+  height: 90vh;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banner .category {
+  font-size: 20px;
+  background-color: white;
+  color: black;
+  padding: 10px;
+}
+
+.banner .category em {
+  color: #f35525;
+}
+
+.banner .content {
+  width: 40%;
+  font-size: 40px;
+  margin-left: 20%;
+}
+
+/* Banner End */
+
+/* Featured content Start */
+.featured {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  gap: 40px;
+}
+
+.left-image {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.featured a {
+  background-color: #f35525;
+  width: 100px;
+  height: 100px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+
+  position: absolute;
+  left: -50px;
+  bottom: -20px;
+}
+
+.featured-content {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.featured-content .title p {
+  color: red;
+  font-size: 20px;
+  padding: 30px 0px;
+}
+
+.featured-content .title h1 {
+  font-size: 40px;
+  padding-bottom: 80px;
+}
+
+.featured-content li {
+  list-style: none;
+}
+
+.featured-content .links {
+  background-color: #fafafa;
+  border-radius: 20px;
+}
+
+.featured-content .links ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.featured-content .links h4 {
+  padding: 10px 20px;
+  border-bottom: 1px solid #eee;
+  font-weight: 500;
+}
+
+.featured-content .links p {
+  padding: 10px 30px;
+  font-weight: 400;
+}
+
+.featured-content .links .active {
+  color: #f35525;
+}
+
+.info-table li {
+  list-style: none;
+}
+
+.info-table ul {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+}
+
+.info-table ul li {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 30px;
+  background-color: white;
+
+  border-bottom: 1px solid #eee;
+}
+
+.info-table img,
+h4 {
+  padding: 0px 10px;
+}
+
+.info-table span {
+  color: #7a7a7a;
+  font-weight: 400;
+}
+
+/* Featured content End */
